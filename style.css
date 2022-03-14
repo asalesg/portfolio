@@ -112,7 +112,7 @@ nav.sticky .menu-btn{
 .home{
   height: 100vw;
   width: 100%;
-  background: url("imagens/background2.JPG");
+  background: url("imagens/background2.JPG") no-repeat;
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -129,9 +129,11 @@ nav.sticky .menu-btn{
 .home .text-one{
   font-size: 25px;
   color: #ffffff;
+  text-shadow: 2px 2px 2px rgb(0, 0, 0);
 }
 .home .text-two{
-  color: #e6e1ff;
+  color: #ffffff;
+  text-shadow: 2px 2px 2px rgb(0, 0, 0);
   font-size: 75px;
   font-weight: 600;
   margin-left: -3px;
@@ -139,12 +141,14 @@ nav.sticky .menu-btn{
 .home .text-three{
   font-size: 40px;
   margin: 5px 0;
-  color: #dcdaff;
+  color: #ffffff;
+  text-shadow: 2px 2px 2px rgb(0, 0, 0);
 }
 .home .text-four{
   font-size: 23px;
   margin: 5px 10;
   color: #ffffff;
+  text-shadow: 2px 2px 2px rgb(0, 0, 0);
 }
 .home .button{
   margin: 14px 0;
