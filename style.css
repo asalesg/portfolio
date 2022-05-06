@@ -44,11 +44,13 @@ nav .navbar{
   justify-content: space-between;
   align-items: center;
   margin: auto;
+  text-shadow: 4px 4px 4px rgb(0, 0, 0);
 }
 nav .navbar .logo a{
   font-weight: 500;
   font-size: 35px;
   color: #4070f4;
+  text-shadow: 4px 4px 4px rgb(0, 0, 0);
 }
 nav.sticky .navbar .logo a{
   color: #fff;
@@ -67,6 +69,7 @@ nav .navbar .menu li{
   color: #dee5e9;
   padding: 6px 0;
   transition: all 0.4s ease;
+  text-shadow: 4px 4px 4px rgb(0, 0, 0);
 }
 .navbar .menu a:hover{
   color: #4070f4;
@@ -97,6 +100,7 @@ nav .menu-btn,
   cursor: pointer;
   transition: all 0.3s ease;
   display: none;
+  
 }
 nav .menu-btn{
   color: #4070f4;
@@ -110,13 +114,14 @@ nav.sticky .menu-btn{
 
 /* home section styling */
 .home{
-  height: 100vw;
+  height: 100vh;
   width: 100%;
   background: url("imagens/background2.JPG") no-repeat;
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
-  font-family: 'Ubuntu', sans-serif; 
+  font-family: 'Ubuntu', sans-serif;
+  
 }
 .home .home-content{
   width: 90%;
@@ -129,11 +134,11 @@ nav.sticky .menu-btn{
 .home .text-one{
   font-size: 25px;
   color: #ffffff;
-  text-shadow: 2px 2px 2px rgb(0, 0, 0);
+  text-shadow: 4px 4px 4px rgb(0, 0, 0);
 }
 .home .text-two{
   color: #ffffff;
-  text-shadow: 2px 2px 2px rgb(0, 0, 0);
+  text-shadow: 4px 4px 4px rgb(0, 0, 0);
   font-size: 75px;
   font-weight: 600;
   margin-left: -3px;
@@ -247,7 +252,7 @@ section .button button{
   font-size: 25px;
   font-weight: 400;
   background: #4070f4;
-  color: #fff;
+  color: rgb(255, 255, 255);
   border: 2px solid transparent;
   cursor: pointer;
   transition: all 0.4s ease;
@@ -255,7 +260,7 @@ section .button button{
 section .button button:hover{
   border-color: #4070f4;
   background-color: #fff;
-  color: #4070f4;
+  color: #ededed;
 }
 
  /* My Skills CSS */
