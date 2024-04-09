@@ -521,18 +521,20 @@ footer .text span a:hover{
 
 .projects {
   display: flex;
-  justify-content: space-around;
   flex-wrap: wrap;
+  justify-content: space-between;
   margin: 20px auto; /* Alteração para centralizar a seção */
   max-width: 1200px; /* Definindo uma largura máxima para a seção */
 }
 
 .site {
-  width: 30%;
   background-color: #F0F8FF;
-  padding: 20px;
-  margin-bottom: 20px;
-  box-sizing: border-box;
+  text-align: center;
+  border-radius: 12px;
+  padding: 30px 10px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.12);
+  cursor: default;
+  transition: all 0.4s ease;
 }
 
 .site img {
