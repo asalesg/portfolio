@@ -251,16 +251,16 @@ section .button button{
   border-radius: 4px;
   font-size: 25px;
   font-weight: 400;
-  background: #4070f4;
+  background: #236cff;
   color: rgb(255, 255, 255);
   border: 2px solid transparent;
   cursor: pointer;
   transition: all 0.4s ease;
 }
-section .button button:hover{
-  border-color: #4070f4;
-  background-color: #fff;
-  color: #ededed;
+section .button button:hover {
+  border-color: #3c91ff;
+  background-color: #f4f5fa;
+  color: #2c6fff; /* Altera a cor do texto */
 }
 
  /* My Skills CSS */
@@ -313,7 +313,7 @@ section .button button:hover{
   color: #4070f4;
 }
 .skills-details .boxes .per{
-  font-size: 60px;
+  font-size: 16px;
   color: #4070f4;
 }
 
